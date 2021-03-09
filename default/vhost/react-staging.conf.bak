@@ -2,11 +2,11 @@ server {
   listen 8081;
   listen [::]:8081;
 
-  root /app/react-staging;
+  root /app/example2;
 
   index index.html;
 
-  server_name staging.jarvis.io;
+  server_name staging.example.com;
 
   location / {
     try_files $uri $uri/ @rewrites;
